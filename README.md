@@ -26,11 +26,37 @@ import React, { Component } from 'react'
 import NextChartist from 'next-chartist'
 
 class Example extends Component {
+  if (data.statistics) {
+
+    var dataChart = {
+      labels: ["Name"],
+      series: ["James"]
+    }
+
+    var options = {
+      high: 2500,
+      low: 0,
+      reverseData: true,
+      distributeSeries: true,
+      horizontalBars: true,
+      chartPadding: {
+        right: 50
+      },
+      axisY: {
+        offset: 125,
+        onlyInteger: true
+      },
+      axisX: {
+        onlyInteger: true
+      }
+    }
+  }
+
   render() {
     return (
       <NextChartist
         className={'ct-octave'}
-        data={data}
+        data={dataChart}
         options={options}
         type={type}
       />
