@@ -1,4 +1,4 @@
-# next-chartist
+# ⚡React Blazing Fast SVG charts ⚡ (next-chartist)
 
 A continuation of https://github.com/fraserxu/react-chartist. Feel free to push an update
 
@@ -32,7 +32,7 @@ import NextChartist from 'next-chartist'
 
 class Example extends Component {
 
-    var type = "barChart
+    var type = "barChart"
 
     var dataChart = {
       labels: ["Speed"],
