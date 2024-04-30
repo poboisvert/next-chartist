@@ -13,11 +13,16 @@ A continuation of https://github.com/fraserxu/react-chartist. Feel free to push 
 npm install --save next-chartist
 ```
 
+or in \_app or layout.tsx/jsx
+
+```bash
+<script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+```
+
 ## Usage
 
 ```
 <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
-<script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
 ```
 
 ```jsx
@@ -29,8 +34,8 @@ class Example extends Component {
   if (data.statistics) {
 
     var dataChart = {
-      labels: ["Name"],
-      series: ["James"]
+      labels: ["Speed"],
+      series: [1000]
     }
 
     var options = {

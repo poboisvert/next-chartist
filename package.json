@@ -52,5 +52,18 @@
   ],
   "dependencies": {
     "chartist": "^1.3.0"
-  }
+  },
+  "keywords": [
+    "chart",
+    "chartist",
+    "npm",
+    "ui libraries",
+    "nextjs",
+    "plot",
+    "plotting"
+  ],
+  "bugs": {
+    "url": "https://github.com/poboisvert/next-chartist/issues"
+  },
+  "homepage": "https://github.com/poboisvert/next-chartist#readme"
 }
