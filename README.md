@@ -7,6 +7,8 @@ A continuation of https://github.com/fraserxu/react-chartist. Feel free to push 
 [![NPM monthly downloads](https://img.shields.io/npm/dm/next-chartist.svg?style=flat)](https://npmjs.org/package/next-chartist)
 [![NPM total downloads](https://img.shields.io/npm/dt/next-chartist.svg?style=flat)](https://npmjs.org/package/next-chartist)
 
+NPM Package: https://www.npmjs.com/package/next-chartist
+
 ## Install
 
 ```bash
