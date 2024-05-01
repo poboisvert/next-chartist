@@ -73,7 +73,7 @@ const NextChartist = ({
 }
 
 NextChartist.propTypes = {
-  type: PropTypes.oneOf(['Line', 'BarChart', 'Pie']).isRequired,
+  type: PropTypes.oneOf(['LineChart', 'BarChart', 'PieChart']).isRequired,
   data: PropTypes.object.isRequired,
   className: PropTypes.string,
   options: PropTypes.object,

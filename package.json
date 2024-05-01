@@ -1,7 +1,7 @@
 {
   "name": "next-chartist",
-  "version": "1.1.0",
-  "description": "Made with create-react-library",
+  "version": "1.1.1",
+  "description": "2024+ Next.JS React.JS Create responsive, scalable and good looking charts with chartist.js",
   "author": "poboisvert",
   "license": "MIT",
   "repository": "poboisvert/next-chartist",
