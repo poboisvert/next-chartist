@@ -1,5 +1,12 @@
-build/
-dist/
-node_modules/
-.snapshots/
-*.min.js
+node_modules
+**/node_modules/*
+**/out/*
+**/.next/*
+
+.next/
+.next
+next-env.d.ts
+node_modules
+yarn.lock
+package-lock.json
+public
