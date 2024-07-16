@@ -73,13 +73,27 @@ const NextChartist = ({
 }
 
 NextChartist.propTypes = {
-  type: PropTypes.oneOf(['Line', 'BarChart', 'Pie']).isRequired,
+  type: PropTypes.oneOf(['LineChart', 'BarChart', 'PieChart']).isRequired,
   data: PropTypes.object.isRequired,
   className: PropTypes.string,
   options: PropTypes.object,
   responsiveOptions: PropTypes.array,
   style: PropTypes.object,
   listener: PropTypes.object
+}
+
+// Remove defaultProps and update propTypes for 'type'
+NextChartist.propTypes = {
+  ...NextChartist.propTypes,
+  type: (props, propName, componentName) => {
+    const validTypes = ['LineChart', 'BarChart', 'PieChart']
+    if (!validTypes.includes(props[propName])) {
+      return new Error(
+        `Invalid prop '${propName}' supplied to '${componentName}'. ` +
+          `Expected one of ${validTypes.join(', ')}.`
+      )
+    }
+  }
 }
 
 export default NextChartist

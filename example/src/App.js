@@ -1,6 +1,4 @@
 import React from 'react'
-
-import 'test/dist/index.css'
 import NextChartist from './NextChartist'
 
 var dataChart = {
