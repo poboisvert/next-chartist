@@ -10,7 +10,7 @@
 [![Typescript](https://img.shields.io/badge/TypeScript-supported-blue?logo=typescript&style=flat)](https://typescriptlang.org/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat&logo=prettier)](https://github.com/prettier/prettier)
 [![License: MIT](https://img.shields.io/npm/l/next-chartist?style=flat)](https://github.com/poboisvert/next-chartist/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/poboisvert/next-chartist/test.yml?branch=main&style=flat)](https://github.com/poboisvert/next-chartist/actions)
+
 
 > **React Chartist** | **Next.js Charts** | **React Chart Library** | **Chartist.js React Component**
 
