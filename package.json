@@ -1,12 +1,13 @@
 {
   "name": "next-chartist",
-  "version": "1.5.0",
-  "description": "2024+ Next.JS React.JS Create responsive, scalable and good looking charts with chartist.js",
+  "version": "1.5.1",
+  "description": "React Chartist component for Next.js - Create responsive, scalable charts with Chartist.js. React chart library with TypeScript support, SSR compatible, and optimized for Next.js applications.",
   "author": "poboisvert",
   "license": "MIT",
   "repository": "poboisvert/next-chartist",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
+  "types": "index.d.ts",
   "source": "src/index.js",
   "engines": {
     "node": ">=18"
@@ -46,19 +47,51 @@
     "eslint": "^9.7.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "dependencies": {
     "chartist": "^1.5.0"
   },
   "keywords": [
-    "chart",
     "chartist",
-    "npm",
-    "ui libraries",
+    "chartist-react",
+    "chartist.js",
+    "react-chartist",
+    "react chart",
+    "react charts",
+    "react charting",
+    "next chart",
+    "next.js chart",
+    "nextjs chart",
+    "next charts",
+    "next.js charts",
+    "nextjs charts",
+    "chart",
+    "charts",
+    "charting",
+    "react",
+    "reactjs",
+    "next",
     "nextjs",
+    "next.js",
+    "typescript",
+    "typescript charts",
+    "svg charts",
+    "responsive charts",
+    "line chart",
+    "bar chart",
+    "pie chart",
+    "data visualization",
+    "visualization",
     "plot",
-    "plotting"
+    "plotting",
+    "ui library",
+    "component",
+    "react component",
+    "chart component",
+    "ssr",
+    "server-side rendering"
   ],
   "bugs": {
     "url": "https://github.com/poboisvert/next-chartist/issues"

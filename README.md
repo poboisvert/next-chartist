@@ -1,13 +1,24 @@
-# ⚡React Blazing Fast SVG charts ⚡ (next-chartist)
+# ⚡ React Chartist for Next.js - Blazing Fast SVG Charts ⚡
 
-A continuation of https://github.com/fraserxu/react-chartist. Feel free to push an update
+**The best React Chartist component for Next.js** - Create beautiful, responsive charts with Chartist.js. Fully compatible with React, Next.js, and TypeScript.
 
-> Made with create-react-library
+> A modern continuation of [react-chartist](https://github.com/fraserxu/react-chartist) with Next.js support, TypeScript declarations, and enhanced features.
 
+[![NPM Version](https://img.shields.io/npm/v/next-chartist?style=flat&color=blue)](https://www.npmjs.com/package/next-chartist)
 [![NPM monthly downloads](https://img.shields.io/npm/dm/next-chartist.svg?style=flat)](https://npmjs.org/package/next-chartist)
 [![NPM total downloads](https://img.shields.io/npm/dt/next-chartist.svg?style=flat)](https://npmjs.org/package/next-chartist)
+[![Typescript](https://img.shields.io/badge/TypeScript-supported-blue?logo=typescript&style=flat)](https://typescriptlang.org/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat&logo=prettier)](https://github.com/prettier/prettier)
+[![License: MIT](https://img.shields.io/npm/l/next-chartist?style=flat)](https://github.com/poboisvert/next-chartist/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/poboisvert/next-chartist/test.yml?branch=main&style=flat)](https://github.com/poboisvert/next-chartist/actions)
 
-NPM Package: https://www.npmjs.com/package/next-chartist
+> **React Chartist** | **Next.js Charts** | **React Chart Library** | **Chartist.js React Component**
+
+The most popular React Chartist wrapper for Next.js. Perfect for building responsive charts in React and Next.js applications with full TypeScript support.
+
+**🔍 Search terms:** `react chartist`, `chartist react`, `react chart`, `next chart`, `next.js chart`, `react charts`, `nextjs charts`, `chartist.js react`, `react-chartist`
+
+**📦 NPM Package:** https://www.npmjs.com/package/next-chartist
 
 ## Install
 
@@ -243,17 +254,57 @@ All examples are organized in tabs for easy navigation and showcase the full cap
 | `plugins`           | `array`  | No       | Chartist plugins array                                   |
 | `children`          | `node`   | No       | React children                                           |
 
+## Why Choose next-chartist?
+
+Looking for a **React Chartist** component? Need **Next.js charts**? This is the perfect solution:
+
+- 🚀 **Best React Chartist Integration** - Seamlessly use Chartist.js in React and Next.js
+- 📊 **Complete Chart Types** - Line charts, bar charts, and pie charts with full customization
+- ⚡ **Next.js Optimized** - Built specifically for Next.js with SSR support
+- 🔷 **TypeScript Ready** - Full TypeScript declarations included
+- 📱 **Fully Responsive** - Mobile-first responsive chart configurations
+- 🎨 **Highly Customizable** - All Chartist.js options and plugins supported
+- 🎯 **Zero Configuration** - Works out of the box with minimal setup
+
 ## Features
 
 - ✅ **React 16.8+ Compatible** - Uses hooks for modern React development
 - ✅ **Next.js Compatible** - Server-side rendering support
 - ✅ **Chartist 1.5 Support** - All chart types and features
-- ✅ **TypeScript Ready** - Full PropTypes validation
+- ✅ **TypeScript Ready** - Full type declarations and IntelliSense support
 - ✅ **Responsive** - Built-in responsive options support
 - ✅ **Event Handlers** - Full event listener support
 - ✅ **Plugin Support** - Compatible with Chartist plugins
 - ✅ **Performance Optimized** - Efficient updates and memory management
 
+## Related Packages & Alternatives
+
+If you're searching for:
+
+- **react-chartist** - This is the modern Next.js-compatible version
+- **chartist react** - You found it! This package provides React Chartist integration
+- **react chart library** - A lightweight, performant chart library for React
+- **next.js chart component** - Perfect for Next.js applications with SSR support
+- **chartist.js react wrapper** - Complete React wrapper for Chartist.js
+
+## Comparison
+
+| Feature         | next-chartist | react-chartist | Other React Charts |
+| --------------- | ------------- | -------------- | ------------------ |
+| Next.js Support | ✅ Full SSR   | ❌ Limited     | ⚠️ Varies          |
+| TypeScript      | ✅ Full Types | ❌ No Types    | ⚠️ Partial         |
+| Chartist 1.5    | ✅ Latest     | ⚠️ Older       | N/A                |
+| React Hooks     | ✅ Modern     | ⚠️ Class-based | ⚠️ Varies          |
+| Maintenance     | ✅ Active     | ⚠️ Stale       | ⚠️ Varies          |
+
+## Contributing
+
+Contributions are welcome! This package aims to be the **best React Chartist solution** for Next.js developers.
+
 ## License
 
 MIT © [poboisvert](https://github.com/poboisvert)
+
+---
+
+**Keywords for search:** react chartist, chartist react, react chart, next chart, next.js chart, react charts, nextjs charts, chartist.js react, react-chartist, react chart library, next.js chart component, chartist react component, react charting library, nextjs chart library, typescript charts react

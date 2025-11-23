@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import NextChartist from './NextChartist'
+import NextChartist from 'next-chartist'
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('line')
