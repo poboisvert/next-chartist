@@ -26,11 +26,11 @@ The most popular React Chartist wrapper for Next.js. Perfect for building respon
 npm install --save next-chartist
 ```
 
-or in \_app or layout.tsx/jsx
+**Note:** Chartist.js 1.5.0 is bundled with this package, so you don't need to install it separately!
 
-```bash
-<script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js" async />
-```
+
+![Preview of NextChartist Example App](./preview.png)
+
 
 ## Usage
 
